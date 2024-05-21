@@ -1,0 +1,17 @@
+.sect1_hero{
+    
+    width: 100%;
+  position: relative;
+    height: 1000px;
+    background-image: url(https://preview.colorlib.com/theme/course/images/slider_background.jpg.webp);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.sect1_text{
+    color: white;
+   font-size: 75px;
+   span{
+    background-color: #FFB606;
+   }
+}

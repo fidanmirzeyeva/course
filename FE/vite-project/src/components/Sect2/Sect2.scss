@@ -1,0 +1,65 @@
+.card{
+    img{
+        width: 350px;
+        height: 200px;
+    }
+}
+.sect2_hero{
+    width: 100%;
+   
+    height: 600px;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+    align-items: center;
+}
+.sect2_hero_text{
+ margin-top: 50px;
+ h3{
+    font-size: 35px;
+ }
+}
+.sect2_hero_cards{
+    display: flex;
+ 
+    align-items: center;
+   
+   gap: 80px;
+}
+.card{
+    height: 400px;
+    align-items: center;
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #EAEBEC;
+    border: 1px solid  white;
+}
+.card_text{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+    h3{
+        font-size: 23px;
+    }
+    p{
+        font-size:19px;
+        opacity: 0.5;
+    }
+    span{
+        font-size: 23px;
+    }
+    button{
+        width: 82px;
+        height: 32px;
+        border-style: none;
+        color: white;
+        background-color: #FFB606;
+    }
+}
